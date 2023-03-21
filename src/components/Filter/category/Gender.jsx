@@ -20,7 +20,7 @@ const Gender = ({ updatePageNumber, updateGender }) => {
           Gender{" "}
         </button>
       </h2>
-      <div id="collapseTree" className="accordion-collapse collapse show">
+      <div id="collapseTree" className="accordion-collapse collapse">
         <div className="accordion-body d-flex flex-wrap gap-3">
           {gender.map((item, index) => (
             <FilterBTN

@@ -24,7 +24,7 @@ const Status = ({ updateStatus, updatePageNumber }) => {
           Status{" "}
         </button>
       </h2>
-      <div id="collapseOne" className="accordion-collapse collapse show">
+      <div id="collapseOne" className="accordion-collapse collapse">
         <div className="accordion-body d-flex flex-wrap gap-3">
           {status.map((item, index) => (
             <FilterBTN

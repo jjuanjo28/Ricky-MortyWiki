@@ -53,7 +53,7 @@ const Home = () => {
         />
         <div className="col-lg-8 col-12">
           <div className="row">
-            <Card page="/" results={results}/>
+            <Card page="/home/" results={results}/>
           </div>
           <Pagination
       info={info}

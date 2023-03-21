@@ -31,7 +31,7 @@ const Species = ({ updateSpecies, updatePageNumber }) => {
           Species{" "}
         </button>
       </h2>
-      <div id="collapseTwo" className="accordion-collapse collapse show">
+      <div id="collapseTwo" className="accordion-collapse collapse">
         <div className="accordion-body d-flex flex-wrap gap-3">
           {species.map((item, index) => (
             <FilterBTN
